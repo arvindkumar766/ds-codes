@@ -1,8 +1,9 @@
 package cache;
 
+import common.DLinkedList;
+
 import java.util.HashMap;
 import java.util.Map;
-
 // Evict Least Recently Used from Cache
 public class LRUCache {
     Map<Integer, DLinkedList> map;
